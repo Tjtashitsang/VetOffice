@@ -6,7 +6,24 @@ public class Diseases {
 	
 	public Diseases(String aname, boolean astatus)
 	{
-		name = aname;
-		status = astatus;
+		setName(aname);
+		setStatus(astatus);
 	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public boolean getStatus() {
+		return status;
+	}
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+	
 }
