@@ -8,5 +8,8 @@ package edu.cs.cs141.programming_assignment_3;
  *
  */
 public class Animals {
-
+	private String owner;
+	private String name;
+	private int age;
+	
 }
